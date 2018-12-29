@@ -33,7 +33,7 @@ Test-driven from Swift and implemented in Objective-C, to avoid burdening Object
 1. Create a Cartfile with the following line:
 
    ```
-   github "rabbitmq/rabbitmq-objc-client" ~> 0.10.0
+   github "rabbitmq/rabbitmq-objc-client" ~> 3.6.9
    ```
 
    Run carthage, for example in a new project:
@@ -54,7 +54,7 @@ Test-driven from Swift and implemented in Objective-C, to avoid burdening Object
 1. Add the following to your Podfile:
 
    ```
-   pod 'RMQClient', '~> 0.10.0'
+   pod 'RMQClient', '~> 3.6.9'
    ```
    We recommend adding `use_frameworks!` to enable modular imports (Objective-C only).
 1. Run `pod install`.
